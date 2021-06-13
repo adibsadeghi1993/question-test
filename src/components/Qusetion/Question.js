@@ -95,7 +95,7 @@ const Question = ({
             variant="contained"
             color="primary"
             size="large"
-            style={{ width: 100 }}
+            style={{ width: 150 }}
             onClick={handleNext}
           >
             Next Question
