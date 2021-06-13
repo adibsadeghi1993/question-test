@@ -1,0 +1,26 @@
+.result{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px;
+    padding: 20px;
+    border: 2px solid black;
+    box-shadow: 10px 10px 10px black;
+    width: 40%;
+}
+
+.resultpage{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.name{
+    margin-top: 15px;
+}
+.score{
+    margin-top: 15px;
+}
+.btn{
+    margin-top: 15px;
+}
