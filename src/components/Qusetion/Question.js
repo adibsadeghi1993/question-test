@@ -84,7 +84,7 @@ const Question = ({
               variant="contained"
               color="secondary"
               size="large"
-              style={{ width: 185 }}
+              style={{ width: 100 }}
               onClick={handleQuit}
             >
               Quit
@@ -95,7 +95,7 @@ const Question = ({
             variant="contained"
             color="primary"
             size="large"
-            style={{ width: 185 }}
+            style={{ width: 100 }}
             onClick={handleNext}
           >
             Next Question
