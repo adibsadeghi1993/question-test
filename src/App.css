@@ -10,8 +10,9 @@
     border-radius: 5px;
     min-height: 100vh;
     margin: 5px;
-    background-image: url("./assets/ques1.png");
+    /* background-image: url("./assets/ques1.png"); */
     padding: 10px;
+    background-color: rgb(245, 245, 245);
 }
 a{
     text-decoration: none;
