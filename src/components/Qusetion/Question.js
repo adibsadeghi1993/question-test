@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, { useState} from "react";
 import "./Question.css";
 import ErrorMessage from "../../components/ErrorMessage/ErrorMessage";
 import { Button } from "@material-ui/core";
@@ -24,11 +24,11 @@ const Question = ({
   const history=useHistory()
 
   const handleback = (i) => {
-    if (selected == i && selected == correct) {
+    if (selected === i && selected === correct) {
       return "select";
-    } else if (selected == i && selected !== correct) {
+    } else if (selected === i && selected !== correct) {
       return "wrong";
-    } else if (i == correct) {
+    } else if (i === correct) {
       return "select";
     }
   };
